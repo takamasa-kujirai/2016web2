@@ -8,10 +8,12 @@
   <script type="text/javascript">
     $(function(){
       $("p").css("color","black");
-      $("p1").css("color","black");
       $("#toggle").css("color","black");
       $("#toggle").on("click",function(){
       $("#target").toggle("fast");
+       }); 
+      $("#toggle1").on("click",function(){
+      $("#target1").toggle("fast");
        });
     });
     </script>
@@ -28,15 +30,14 @@
 <section id="main">
 <h1>たかまさ作りを始めて500年になりました。このノウハウを皆さんに<ruby>紹介<rp>(</rp><rt>しょうかい</rt><rp>)<rp></ruby>したい。
 <br><strong><mark>レッツたかまさライフ</mark></strong></h1>
-
-<div id="target">あいやぁぁぁああああああああああああああ</div>
 <p>やまびこの声</p>
+<div id="target">あいやぁぁぁああああああああああああああ</div>
   <button id="toggle">閉じる</button>
         <br><br>
     
 <p>たかまさの声</p>
-  <div id="target">あいやあああぁぁぁぁ</div>
-  <button id="toggle">閉じる</button>
+  <div id="target1">あいやあああぁぁぁぁ</div>
+  <button id="toggle1">閉じる</button>
     <br><br>
     
 </section>
