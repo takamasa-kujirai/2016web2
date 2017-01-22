@@ -43,9 +43,10 @@ margin:5px;
 float:left;
 overflow:auto;
 }
-#good_picture{
-  width:40px;
-  position:absolute;
-  left:20px;
-  top:20px;
+h1{
+  font-size:80%
 }
+p{
+  font-size:50%
+}
+
