@@ -4,6 +4,16 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="css/default.css">
 <title>たかまさDXのホームページ</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $("p").css("color","red");
+      $("#toggle").css("color","blue");
+      $("#toggle").on("click",function(){
+      $("#target").toggle("fast");
+       });
+    });
+    </script>
 </head>
 
 <body>
@@ -45,31 +55,9 @@
 
 <article class="box">
 <h2>たくやん探し</h2>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくさん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくさん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくやん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
-<p>たくあん</p>
+<p>あああああ</p>
+  <div id="target">表示・非表示される要素</div>
+  <button id="toggle">切り替え</button>
 </article>
 
 <article class="box">
