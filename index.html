@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+<meta name=""viewport content="width=device-width,initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/default.css">
 <title>たかまさDXのホームページ</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
@@ -17,6 +18,7 @@
        });
     });
     </script>
+       <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
@@ -26,11 +28,29 @@
 </section>
 <script type="text/javascript" src="js/default.js"></script>
 </header>
+ <nav>
+     <div class="container">
+       <div class="navbar-header">
+         <a class="navbar-brand"></a>
+       </div>
+       <ul class="nav navbar-nav">
+         <li class="active"><a href="#">一つ目</a></li>
+         <li><a href="#2nd">二つ目</a></li>
+         <li><a href="#3rd">三つ目</a></li>
+       </ul>
+      </div>
+   </nav>
 
 <section id="main">
 <h1>たかまさ作りを始めて500年になりました。このノウハウを皆さんに<ruby>紹介<rp>(</rp><rt>しょうかい</rt><rp>)<rp></ruby>したい。
 <br><strong><mark>レッツたかまさライフ</mark></strong></h1>
-<p>やまびこの声</p>
+    <br><br>
+  <div class="container">
+   <section>
+     <h1 class="bg-primary">一つ目</h1>
+       
+       
+<h1>やまびこの声</h1>
 <div id="target">あいやぁぁぁああああああああああああああ</div>
   <button id="toggle">閉じる</button>
         <br><br>
@@ -40,6 +60,20 @@
   <button id="toggle1">閉じる</button>
     <br><br>
     
+<p>まさたかの声</p>
+  <div id="target1">ぎょぇぇええええ</div>
+  <button id="toggle1">閉じる</button>
+    <br><br>
+    
+     <h1 id="2nd" class="bg-primary">二つ目</h1>
+     <p>二つ目の文章を入れます</p>
+     <h1 id="3rd" class="bg-primary">三つ目</h1>
+     <p>三つ目の文章を入れます</p>
+   </section>
+  </div>
+    
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </section>
 <footer>
 <p>私のことは嫌いでも、たかまさのことは嫌いにならないでください</p>
